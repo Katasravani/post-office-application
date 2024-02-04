@@ -1,0 +1,25 @@
+/* index.html */
+#indexMain {
+    height: 100Vh;
+    width: 100%;
+}
+.translate-mid {
+    width: 95%;
+    transform: translateX(0%) translateY(50%);
+}
+
+#detailsMain {
+    height: 70vh;
+    width: 100%;
+}
+#moreInfo,#postOffice{
+    width: 100%;
+}
+
+/* details.html */
+#map{
+    height: 75%;
+}
+#Search{
+    outline: none;
+}

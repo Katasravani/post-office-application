@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Office Application</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="container-fluid d-flex justify-content-center align-items-center" id="indexMain">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-6 position-relative bg-dark h-100 text-white h-100 p-5">
+                <h3>Post Office Application.</h3>
+                <p>This Application Allows you to extract information about the nearest Post Offices, based on your
+                    location.</p>
+                <div class="position-absolute top-0 left-0 text-center translate-mid"><img
+                        src="./Assets/undraw_messenger_re_8bky 1.svg" width="60%" height="60%" alt="image"></div>
+            </div>
+            <div class="col-6 d-flex flex-column justify-content-center align-items-center p-5 h-100 text-white" style="background-color:#575a85 ;">
+                <h3>Your Current IP Address is <span id="ipContainer"></span></h3>
+                <div>
+                 <button class="btn btn-lg text-white border btn-outline-secondary" onclick="getData()">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5hOu-njunqLb_AljVIoxolakf_pNJ7yY&callback=emp" async defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        
+</body>
+
+</html>
